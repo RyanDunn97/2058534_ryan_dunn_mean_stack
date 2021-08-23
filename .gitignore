@@ -1,0 +1,4 @@
+# ignoring ms files and pictures
+*.docx
+*.pptx
+*.png

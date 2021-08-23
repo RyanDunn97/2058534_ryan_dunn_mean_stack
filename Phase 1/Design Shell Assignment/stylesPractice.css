@@ -1,0 +1,32 @@
+h1{
+	font-family: Comic Sans, cursive;
+	text-align: center;
+	text-decoration: overline wavy blue;
+	background-color: silver;
+}
+h3{
+	text-decoration: underline;
+	color: pink;
+}
+h5{
+	color: brown;
+}
+main{
+	font-family: sans-serif;
+	border: 2px solid black;
+}
+p.class1{
+	color: red;
+}
+p.class2{
+	color: blue;
+}
+div{
+	font-size: 12pt;
+	font-style: italic;
+	
+}
+footer{
+	font-size: 8pt;
+	background-color: green;
+}

@@ -1,0 +1,16 @@
+team budget plan:
+
+- 3 html pages: main, program managers, finance teams
+- a source js script to import
+- maybe a css page
+
+- main: just links to program managers and finance teams
+DONE
+
+- program managers: add a new budget object(client, proj, budget)
+	add functionality for add, grabbing input from text fields
+	add functionality for clear, clearing the text fields
+
+- finance teams: display table of budgets and budget total
+	add functionality for grabbing info from local storage then creating table
+	add sum of the budgets below the table

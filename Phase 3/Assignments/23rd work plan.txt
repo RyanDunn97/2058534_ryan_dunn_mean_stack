@@ -1,0 +1,12 @@
+Work Plan: 
+
+1. Tackle today's assignment X
+	sprinkle in a few 'debugger;' lines in the code
+2. Update git, reconnect everything :/ (bless up for bash term)
+	clear entire github X
+	look up how to use git-ignore
+		use .gitignore for docx, pptx, png
+	push all of my simpli-learn phases
+3. work on online test
+	check correct answers
+	set colors and score 

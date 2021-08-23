@@ -1,0 +1,69 @@
+Online Test Application Assignment Notes:
+
+Due: August 19th
+
+https://angular.io/api/forms/RadioControlValueAccessor
+
+Plan: 
+- come up with own test application
+- need to make a quiz and i can use whatever
+- should use radio button for multiple choice
+- minimum 10 questions
+- after submit, display next to question if correct/wrong
+	use ngIf for this
+	show correct answer on wrong ones
+- show total results at the bottom; 70% pass (up to you)
+- Radio Buttons: can create radio button group or pass json file to it
+	might be best to create json/array and use ngFor to display
+	if using ngFor, can just ignore things for correct/incorrect
+- use ngIf flag for the quiz ending
+- can use mdf or tdf, might be easier for tdf
+- build the project
+- want to disable the submit button after using it
+
+Steps: 
+1. Retrieve json data X LFG!!!
+	create service file X
+	connect service file to ts X
+	connect info to array  X
+2. Writeup test questions X
+3. Create quiz layout
+	add form control to questions
+	create mdf layout
+	radio button layout
+	json -> radio button 
+4. write ts functions
+	checking correct answers
+	setting style of incorrect/correct
+	setting score of quiz
+
+Buttons:
+	set required: true for the group
+	retrieve input from the group (selected)
+		might be better to use value ; says value of selected ones
+
+
+Submit function:
+- check answers function should be iterative
+
+Okay:
+	I've figured out how to import the json data
+		into my program using observable and service
+
+	going to see how much I can copy the 
+
+
+Q's/Notes:
+- first thing first: figure out service, loading json data	
+	test that it's loading with console.logs
+- create a seperate array for the answers users give
+<form [formGroup]="myForm" (ngSubmit)="submit()">
+        <div *ngFor="let q of allQuestions">
+            <p>{{q.question}}</p>
+            <input type="radio" formControlName={{q.question}}  value={{q.ans1}} ngModel required><span id="{{q.ans1}}">{{q.ans1}}</span> <br>
+            <input type="radio" formControlName={{q.question}}  value={{q.ans2}} ngModel required><span id="{{q.ans2}}">{{q.ans2}}</span> <br>
+            <input type="radio" formControlName={{q.question}}  value={{q.ans3}} ngModel required><span id="{{q.ans3}}">{{q.ans3}}</span> <br>
+            <input type="radio" formControlName={{q.question}}  value={{q.ans4}} ngModel required><span id="{{q.ans4}}">{{q.ans4}}</span> <br>
+        </div>
+        <input type="submit" value="Submit" [disabled]="myForm.invalid">
+    </form>

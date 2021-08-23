@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Simply Blogging</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="simply blogging functions.js"></script>
+	<style>
+		li{
+			display:inline;
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+<h1>Simply Blogging</h1>
+<nav>
+<ul>
+	<li><a href="simply blogging.html">Add Blog</a></li>
+	<li><a href="simply blogging.html">Home</a></li>
+	<li><a href="simply blogging.html">About Us</a></li>
+	<li><a href="simply blogging.html">Contact Us</a></li>
+</ul>
+</nav>
+<form>
+	<label>Title</label>
+	<input type="text" name="title" id="title"/></br>
+	
+	<label>Articles</label>
+	<input type="text" name="articles" id="articles"/></br>
+	
+	<label>Add Image</label>
+	<input type="text" name="images" id="images"/></br>
+	
+	<input type="button" value="Add Blog" onClick="addBlog()"/>
+</form>
+<div class="container">
+	<div class="row" id="blogs">
+			
+    </div>
+</div>
+</body>
+</html>

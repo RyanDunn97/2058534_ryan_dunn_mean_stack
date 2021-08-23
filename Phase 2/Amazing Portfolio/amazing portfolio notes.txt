@@ -1,0 +1,51 @@
+Amazing Profile Assignment Notes:
+
+Section 6, lesson 1.20
+Due Date: Tuesday, 17th
+
+Plan:
+- create angular project 'amazing-portfolio'
+- create three components 'login', 'portfolio', 'registration'
+	!!! actually pretty sure these are fake components
+	ie. they are 3 parts that exist in one component
+- for registering, save info from registration form in storage
+	then require that for loggin in
+- upon successful login, go to portfolio page
+- !!! use *ngIf to hide components that aren't being used
+	we are not navigating to other pages
+- storage: actually don't need storage
+- angular is one page application, so we can store one (or more) users
+	on a variable
+- use 3 divs with *ngIf's for the 'components'
+- create functions 'showPage' for each page which alters the variables
+	for the ngIf statements
+- use array to store contact details and ngFor to display
+- may require a <form>; might make easier, will see
+	will make extracting values from text fields easier
+	don't need to store the 
+- on ts, create values for user and array for contacts
+- pressing 'login' will check the values of fields
+	if correct->call switch page
+- create an interface file and import it for the contacts
+- registering sets username
+- 'save' button will push contact data to contact array
+
+Steps:
+1. create angular project X
+2. create function to switch pages X
+3. add buttons for switching pages X
+	login: port and reg, reg: login, port: login
+4. Add relevant text fields to each 'page' X
+	login: user, pass ; port: span user, contact name, phone ;
+	registration: first name, last, user, password
+5. create interface file and make an array of that X
+6. create the table of that X
+	LFG!!! :)))
+7. create login function
+	test by replacing button and setting up form
+8. create/test registration function
+
+
+Questions notes:
+- now just require taking input for user, contacts, and
+	validating user

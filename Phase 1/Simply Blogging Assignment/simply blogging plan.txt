@@ -1,0 +1,23 @@
+Simply Blogging Plan:
+
+Needs:
+- html file for the blog
+- js file for functionality of actually adding the blogs
+
+Steps:
+1. setup the layout except for the table
+2. import bootstrap css for the inline
+3. look to example/discord for setup of table
+4. add js functionality for adding blog posts
+
+URLs:
+cat: https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png
+iggy: https://www.animalkingdomaz.com/wp-content/uploads/italian-greyhound-1.jpg
+basenji: https://dogtime.com/assets/uploads/gallery/basenji-dog-breed-pictures/1-standforward.jpg
+smiling sun: https://st.depositphotos.com/1664589/2409/v/950/depositphotos_24091449-stock-illustration-smiling-sun.jpg
+
+What's left:
+- create a zip of the finished source code
+- clean up and add design to each aspect of the webpage
+	- if do this, take another screenshot
+- upload it to simpli learn

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopping Cart</title>
+        <script src="checkout.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            h2{
+                text-align: center;
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Shopping Cart</h2>
+        <div>
+            Cart Size: <span id="cart-size">0</span>
+        </div>
+        <br/>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 border border-primary">
+                    Name: Hydroflask Water Bottle <br/>
+                    Price: $35 <br/>
+                    <input type="button" value="Add" onClick="addToCart('Hydroflask', 35)"/>
+                </div>
+                <div class="col-md-6 border border-primary">
+                    Name: Sharpie Markers 6 Co. <br/>
+                    Price: $12 <br/>
+                    <input type="button" value="Add" onClick="addToCart('Sharpie Marker 6 Co.', 12)"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 border border-primary">
+                    Name: Nintendo Switch <br/>
+                    Price: $300 <br/>
+                    <input type="button" value="Add" onClick="addToCart('Nintendo Switch', 300)"/>
+                </div>
+                <div class="col-md-6 border border-primary">
+                    Name: Black 3x5 Picture Frame <br/>
+                    Price: $8 <br/>
+                    <input type="button" value="Add" onClick="addToCart('Black 3X5 Picture Frame', 8)"/>
+                </div>
+            </div>
+        </div>
+        <a href="Checkout Page.html">Checkout</a>
+    </body>
+</html>

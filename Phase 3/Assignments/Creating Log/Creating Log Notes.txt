@@ -1,0 +1,25 @@
+Phase 3 
+
+Due:  August 24th
+Submit: In Phase 2, Section 10
+
+Plan: 
+- find npm installs needed for this: X
+	npm install readline-sync
+	npm init to create json package
+- check today's lesson about reading input for questions X
+- figure out how to create a time object X
+- look at old example for storing X
+- add debug statements
+
+Notes:
+- Main thing is being able to log the data
+- Take user input from keyboard
+- Store user input in json along with date/time obj of input
+- Program should append the current record with the old record
+- should be able to follow the example from the other day 
+	about appending
+- need to look up creating date/time obj
+- should be reusable, for this:
+	run program as loop
+	ask for another user or if they want to quit 

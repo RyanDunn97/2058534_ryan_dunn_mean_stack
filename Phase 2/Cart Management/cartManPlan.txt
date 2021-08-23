@@ -1,0 +1,30 @@
+Planning:
+- seems very similar to budget project
+- must use local/session storage
+- typescript and html are all that's required
+- add css/bootstrap for fun if I want
+- typescript: think it's arrays and objects primarily
+	- can form a class for this!! :o
+
+Steps:
+1. Setup initial file structure X
+2. Setup layout of html X
+	the container holding the four boxes
+	the names and prices of each box
+	the functionless 'add' buttons
+3. figure out what typescript is needed
+	add functionality to change size of cart X
+	add functionality to store obj when added X
+		add values to add buttons in html X
+		check that it's working with console logs X
+	add functionality to create the table from storage X
+	load the count to cart size when opening that page?
+4. implement typescript X
+5. (optional) add images to each card
+6. (optional) add pretty bootstrap
+
+Questions/Notes:
+- what typescript specialties am i using?
+- wow. really just hardcode 4 items into the cart page
+- function should be 'dynamic' with two inputs,
+	but each implementation can have hardcoded values

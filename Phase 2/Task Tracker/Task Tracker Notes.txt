@@ -1,0 +1,25 @@
+Plan:
+- Make the form
+- Make the form function
+- Add the angular components
+
+Steps:
+1. Create interface
+    import and test
+2. create user input
+3. create table
+    test with dummy interface obj
+4. create saveTask function to update table
+5. add pwa feel
+6. run ng build (see if it works offline)
+7. zip files w/o nodes module and submit
+
+
+Notes:
+- submit in section 8, task tracker
+- very similar to portfolio apparently
+- must display workers daily tasks in a component using PWA
+- very similar to the portfolio page of proj, but using PWA
+- PWA => google 'angular material' and use the components
+    specified on this webpage
+- may require offline capability 'pwa' for this
