@@ -1,0 +1,33 @@
+Phase 3
+Task Planner
+
+Submit: phase 3, section 1
+Due: 30th
+
+Plan:
+- make task ID unique
+- at bottom of page, display everything in a table
+- storing the info in a separate json file
+- load json as array for adding, deleting
+	then overwrite file with updated array
+- can make format very similar to today's proj
+
+Steps:
+1. Follow today's lesson to display the page's format X
+2. Create functionality for showing table X !!! LFG :)))
+3. Create functionality for adding a task X !!! LFG!!!
+	load json/setup file system X
+	check that the task ID is unique in the array X
+	push json obj to array X
+	append to array X
+4. Create functionality deleting a task X
+	delete item from array X
+	overwrite the array; make sure this overwrites completely X
+
+
+Notes/Q's:
+- how to 'dynamically' form the table:
+	use a for loop? lol not sure currently
+	the 'show table' button sends you to /display and then 
+		appends the table. this makes sense
+- include a main page write with every button press

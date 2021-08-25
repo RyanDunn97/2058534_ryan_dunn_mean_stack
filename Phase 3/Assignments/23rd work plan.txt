@@ -2,11 +2,17 @@ Work Plan:
 
 1. Tackle today's assignment X
 	sprinkle in a few 'debugger;' lines in the code
-2. Update git, reconnect everything :/ (bless up for bash term)
+2. Update git, reconnect everything :/ (bless up for bash term) X 
 	clear entire github X
-	look up how to use git-ignore
+	look up how to use git-ignore X
 		use .gitignore for docx, pptx, png
-	push all of my simpli-learn phases
+	push all of my simpli-learn phases X
+	let's gooooooooo
 3. work on online test
 	check correct answers
 	set colors and score 
+
+End of day: finished assignment, 
+	fixed github to link to vs git bash terminal so I'm finally
+	pushing from that again,
+	will work on assignment tomorrow
