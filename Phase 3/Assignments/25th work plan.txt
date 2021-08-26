@@ -1,0 +1,14 @@
+Work Day Plan:
+
+Aug 25th
+
+1. beginning of soft skills class
+	a. look over akash's code and fix mine
+	b. test that it's working
+	c. push the whole phase 3 folder to github again
+2. pick up on test application assignment
+	a. figure out the form groups X
+	b. figure out getting form values X
+	c. figure out test score X
+	d. figure out page manipulation X 
+	e. all done!!! new zip, push to git, resubmit assignment, screenshots, writeup X
