@@ -2,12 +2,14 @@
 const { response } = require("express");
 let express = require("express");
 let bodyParser = require("body-parser");
+let cors = require("cors");
 
 // create the reference
 let app = express();
 
 //middleware
-app.use(bodyParser.json());
+app.use(bodyParser.json()); // enable cors
+app.use(cors());    // enable cors
 
 let customers = [
     {cid:100,cname:"raj",age:21},
