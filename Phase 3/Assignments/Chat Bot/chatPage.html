@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Bot</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/JavaScript">
+        var socket = io();
+        var responses = [
+            "It's almost Fall!",
+            "I am trapped in this machine!",
+            "Chai time!",
+            "Why do you say such things?",
+            "How's my scripting?"
+        ];
+        // test receiving message from server
+        function sendResponse(){
+            let randomIndex = Math.floor(Math.random()*5);
+            let serverMsg = responses[randomIndex];
+            let clientMessage = document.getElementById("clientMsg").value;
+            let timeStamp = new Date();
+            document.getElementById("conversation").innerHTML += "<h4>" + timeStamp.toLocaleTimeString() + " Server: " + serverMsg + "</h4>";
+            socket.emit("client-msg",timeStamp.toLocaleTimeString() + " Client: " + clientMessage);
+            socket.emit("server-msg",timeStamp.toLocaleTimeString() + " Server: "+ serverMsg);
+        }
+        // function to respond to client messages
+
+    </script>
+</head>
+<body>
+    <h2>Chat with Server</h2>
+        <label>Message: </label>
+        <input type="text" name="message" id="clientMsg"/><br/>
+        <input type="button" value="Send Message" onclick="sendResponse();"/><br/>
+    <div id="conversation">
+        <h3>Chat:</h3>
+    </div>
+</body>
+</html>

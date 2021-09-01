@@ -1,0 +1,27 @@
+Chat Bot Assignment
+
+Due: Sept 1st Wed
+Submit: 
+
+Plan: 
+1. import express and socket.io X
+2. create js file layout and bare html file X
+3. create skeleton for html page X
+4. communicate basics b/w client and server X
+5. Show client input in browser X
+6. show server messages in server console X
+7. show sent client messages in the server console
+
+
+Req's:
+- create chat bot
+- server must reply and have the time of response; create time obj
+- buttons at the bottom for sending
+- using socket lessons bc it's a web socket program
+- Server response: randomly pick responses from an array? doesn't need to make sense
+- three sections:
+	top: displays 'chat history' b/w client and server
+	mid: text field for client to type messages
+	bottom: button for sending messages
+
+Notes:
