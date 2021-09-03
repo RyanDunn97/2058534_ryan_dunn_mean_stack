@@ -1,0 +1,11 @@
+get txt file from repo 
+
+open my mongodb and my mongo
+
+make new database with 'use' command
+
+do an insert many command with the json data from the repo
+
+DONE!
+
+put the complete insert many command in a text file and submit that
