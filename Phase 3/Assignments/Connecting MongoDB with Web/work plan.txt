@@ -1,0 +1,42 @@
+Today's Proj:
+
+Using mongoose
+Don't need POST, PUT, etc because I can just use express and use functions
+	to store in DB
+Actually think I might still try out MVC, but just don't have to use POST(et all)
+	can just take input from fields and make functions to interact with DB
+What was i thinking, express has functions for this operations
+
+
+Questions:
+- separate pages have separate forms
+	how do those forms do POST, PUT, etc?
+- How do I get the info 
+	checkUser in login.html is a good example
+- function is a route
+	get sent there through a form's action
+	just like in their example
+
+guess i need to double check the backend code with mine, find URL error?
+
+if i'm not seeing the issue, might just legit copy his code lol
+
+I think I'm just going to do assignment with express and then do section end 
+	material tomorrow during class time
+
+for uniqueness: let found = userDetails.find(u=>u.uname==user && u.pname==pass);
+    if(found != undefined){
+	where userDetails is the database that's loaded in each function
+
+i think connection goes at the beginning,
+	not sure where the once's go
+	ohhhhh you don't need the once's.... jesus
+Plan:
+1. make necessary installs X
+2. setup necessary pages X
+	- follow express js page example X
+	- create relevant html pages X
+		Home X	Add	X	Update X	Delete	X	Fetch X
+3. Create layout for html pages X
+4. Setup mongoose to connect DB!
+5. Create functions that work with mongoose
