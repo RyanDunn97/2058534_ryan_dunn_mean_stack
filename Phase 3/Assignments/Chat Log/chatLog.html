@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Bot</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/JavaScript">
+        var socket = io();
+        
+        // sends name and message to server
+        function sendResponse(){
+            let clientName = document.getElementById("clientName").value;
+            let clientMessage = document.getElementById("clientMsg").value;
+            let clientArray = [clientName,clientMessage];
+            socket.emit("client-msg",clientArray);
+        }
+
+    </script>
+</head>
+<body>
+    <h2>Enter Into Chat Log</h2>
+        <label>Name: </label>
+        <input type="text" name="name" id="clientName"/><br/>
+        <label>Message: </label>
+        <input type="text" name="message" id="clientMsg"/><br/>
+        <input type="button" value="Send Message" onclick="sendResponse();"/><br/>
+</body>
+</html>

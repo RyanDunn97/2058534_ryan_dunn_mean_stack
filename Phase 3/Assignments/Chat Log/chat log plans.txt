@@ -1,0 +1,16 @@
+
+For phase end chatlog,
+- start off using the chatting with socket io as beginning point
+- replace part where you send a random server message with storing the client
+	message into mongodb
+- install express, mongoose, socket.io
+- in the emit on server side, this is where you put the mongoose.insert
+
+need:
+-	mongo in {name:String, message:String}
+- literally just storing the messages in mongo
+
+plan:
+1. look over power point X
+2. copy layout of chat bot program X
+3. switch out random messages for saves to the database
